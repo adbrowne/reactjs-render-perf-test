@@ -6,9 +6,7 @@ const plugins = [
       CLIENT: true,
       SERVER: false
     }),
-    'process.env': {
-      NODE_ENV: JSON.stringify('production')
-    }
+    'process.env.NODE_ENV': JSON.stringify('production')
   })
 ];
 

@@ -2,6 +2,7 @@ var React = require('react'),
     ReactDOMServer = require('react-dom/server'),
     DOM = React.DOM, body = DOM.body, div = DOM.div, script = DOM.script;
 
+console.log(process.env);
 var itemCount = process.argv[2];
 var iterations = 100;
 
