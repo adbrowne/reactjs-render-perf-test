@@ -22,12 +22,27 @@ plugins.push(new webpack.optimize.UglifyJsPlugin({
     minimize: true
   }));
 
-module.exports = {
-    entry: "./index.js",
-    target: 'node',
-    plugins: plugins,
-    output: {
-        path: __dirname,
-        filename: "bundle.js"
-    }
-};
+module.exports = [
+  {
+      entry: "./index.js",
+      target: 'node',
+      plugins: plugins,
+      output: {
+          path: __dirname,
+          filename: "bundle.js"
+      }
+  },
+  {
+      entry: "./index.js",
+      target: 'node',
+      resolve: {
+        alias: {
+          react$: 'react/dist/react.min.js'
+        }
+      },
+      output: {
+          path: __dirname,
+          filename: "bundle.react-min.js"
+      }
+  }
+];
