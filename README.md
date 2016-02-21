@@ -7,16 +7,14 @@ iterations.
 
 Results from my macbook
 
-``
-20k
-Raw JS:
-6.85ms
-Uglified:
-1.34ms
+    20k
+    Raw JS:
+    6.85ms
+    Uglified:
+    1.34ms
 
-200k
-Raw JS:
-66.6ms
-Uglified:
-13.77ms
-``
+    200k
+    Raw JS:
+    66.6ms
+    Uglified:
+    13.77ms
