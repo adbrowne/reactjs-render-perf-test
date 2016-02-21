@@ -12,12 +12,16 @@ Results from my macbook
 
     20k
     Raw JS:
-    6.85ms
+    7.28ms
     Uglified:
-    1.34ms
+    1.33ms
+    Aliasing react.min.js as react:
+    4.6ms
 
     200k
     Raw JS:
-    66.6ms
+    65.04ms
     Uglified:
-    13.77ms
+    13.52ms
+    Aliasing react.min.js as react:
+    49.24ms
