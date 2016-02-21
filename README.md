@@ -1,6 +1,9 @@
 ### Performance test for reactjs server side rendering
 
-To run: ``./run.sh``
+```bash
+$ npm install
+$ npm test
+```
 
 This reports the server rending of a 20k and a 200k document averaged over 100
 iterations.

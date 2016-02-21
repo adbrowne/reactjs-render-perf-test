@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-npm install
-
-./node_modules/.bin/webpack
-
 echo "20k"
 echo "Raw JS:"
 node index.js 400
