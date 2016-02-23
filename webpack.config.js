@@ -35,7 +35,8 @@ module.exports = [
       target: 'node',
       resolve: {
         alias: {
-          react$: 'react/dist/react.min.js'
+          'react$': 'react/dist/react.min.js',
+          'react-dom/server$': 'react-dom/dist/react-dom-server.min.js'
         }
       },
       output: {
